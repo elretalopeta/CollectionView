@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C970942E1C2078F500442502 /* ViewControllerNav2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C970942D1C2078F500442502 /* ViewControllerNav2.swift */; settings = {ASSET_TAGS = (); }; };
+		C982D1FF1C23110200599C59 /* ViewControllerNav1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982D1FE1C23110200599C59 /* ViewControllerNav1.swift */; settings = {ASSET_TAGS = (); }; };
 		C9DF72931C18BA2500763679 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF72921C18BA2500763679 /* AppDelegate.swift */; };
 		C9DF72951C18BA2500763679 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DF72941C18BA2500763679 /* ViewController.swift */; };
 		C9DF72981C18BA2500763679 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DF72961C18BA2500763679 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C970942D1C2078F500442502 /* ViewControllerNav2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerNav2.swift; sourceTree = "<group>"; };
+		C982D1FE1C23110200599C59 /* ViewControllerNav1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerNav1.swift; sourceTree = "<group>"; };
 		C9DF728F1C18BA2500763679 /* Practica Collection	View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Practica Collection\tView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DF72921C18BA2500763679 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9DF72941C18BA2500763679 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				C9DF72991C18BA2500763679 /* Assets.xcassets */,
 				C9DF729B1C18BA2500763679 /* LaunchScreen.storyboard */,
 				C9DF729E1C18BA2500763679 /* Info.plist */,
+				C970942D1C2078F500442502 /* ViewControllerNav2.swift */,
+				C982D1FE1C23110200599C59 /* ViewControllerNav1.swift */,
 			);
 			path = "Practica Collection\tView";
 			sourceTree = "<group>";
@@ -255,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C982D1FF1C23110200599C59 /* ViewControllerNav1.swift in Sources */,
+				C970942E1C2078F500442502 /* ViewControllerNav2.swift in Sources */,
 				C9DF72951C18BA2500763679 /* ViewController.swift in Sources */,
 				C9DF72931C18BA2500763679 /* AppDelegate.swift in Sources */,
 			);
@@ -481,6 +489,7 @@
 				C9DF72B91C18BA2500763679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9DF72BA1C18BA2500763679 /* Build configuration list for PBXNativeTarget "Practica Collection	ViewTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +498,7 @@
 				C9DF72BC1C18BA2500763679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9DF72BD1C18BA2500763679 /* Build configuration list for PBXNativeTarget "Practica Collection	ViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +507,7 @@
 				C9DF72BF1C18BA2500763679 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -8,10 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+class ViewController: UIViewController{
+
+    @IBOutlet weak var Perfil: UIImageView!
+    var imagen: UIImage!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        Perfil.image = imagen
         // Do any additional setup after loading the view, typically from a nib.
     }
 
